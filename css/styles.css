@@ -8201,7 +8201,12 @@ footer .creator img {
 {
     display: flex;
 }
-
+.main_slider2 .owl-item{
+    overflow:hidden;
+} 
+.main_slider2 .owl-item.active{
+    overflow:visible;
+}
 .main_slider .slide
 {
     display: flex;
