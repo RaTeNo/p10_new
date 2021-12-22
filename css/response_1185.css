@@ -367,8 +367,25 @@
     .main_slider2 .info
     {
         line-height: 28px;
+        max-width: 450px;
+        width: 100%;
     }
-
+    .main_slider2 .img:after {
+        width: 390px;
+        height: 390px;
+        top: 77px;
+        left: 124px;
+    }
+    .main_slider2 .img {
+        width: 451px;
+        height: 451px;
+    }
+    .main_slider2 .img:before {
+        top: 90px;
+        left: 84px;
+        width: 450px;
+        height: 450px;
+    }
     .main_slider2 .info .title
     {
         font-size: 36px;
@@ -380,12 +397,7 @@
         margin-top: 40px;
     }
 
-    .main_slider2 .info .link
-    {
-        margin-top: 55px;
-    }
-
-    .main_slider2 .img
+       .main_slider2 .img
     {
         margin-right: 20px;
     }
@@ -398,7 +410,9 @@
         height: 400px;
         margin-left: 60px;
     }
-
+    .main_slider3 .slide .info {
+        max-width: 400px;
+    }
     .main_slider3 .img:before
     {
         left: -60px;
@@ -1031,10 +1045,10 @@
         height: 400px;
     }
     .three_photo .photo::before {
-        width: 470px;
-        height: 546px;
-        top: -32px;
-        right: -60px;
+        width: 479px;
+        height: 532px;
+        top: -21px;
+        right: -15px;
     }
     .works .owl-item.active.center {
         margin-top: 0px;    
