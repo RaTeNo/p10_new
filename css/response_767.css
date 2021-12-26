@@ -1459,8 +1459,7 @@
         margin-bottom: 20px;
     }
     .about .img::before {
-        top: 20px;
-        left: -40px;
+        height: 350px;
     }
     .how_we_work .img::before {
         width: 313px;
@@ -1648,6 +1647,7 @@
     }
     .documents_wrap {
         padding: 20px;
+        justify-content: center;
     }
     .documents_wrap > * {
         margin-left: 20px;

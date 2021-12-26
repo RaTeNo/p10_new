@@ -956,13 +956,12 @@
     {
         width: 360px;
     }
-
-    .about .img:after
-    {
-        display: none;
+    .about .img::before {
+        width: 353px;
+        height: 548px;
+        top: -17px;
+        right: -17px;
     }
-
-
     .how_we_work .info
     {
         max-width: calc(100% - 275px);
@@ -2071,13 +2070,7 @@
     .big_boss_quote .info .block_head .title {
         padding-top: 0;
     }
-    .documents_wrap {
-        flex-wrap: wrap;
-    }
-    .documents_wrap > * {
-        margin-left: 20px;
-        width: calc(100%/4 - 20px);
-    }
+
     .faq .accordion {
         padding: 30px;
     }

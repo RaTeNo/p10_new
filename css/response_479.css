@@ -1337,6 +1337,10 @@
     .about .img {
         height: 230px;
     }
+    .about .img::before {
+        height: 228px;
+        width: 285px;
+    }
     .about .info {
         padding: 0;
     }

@@ -692,7 +692,7 @@ body.lock
     padding: 0 5px;
     vertical-align: top;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     background: var(--main_color2);
     border-radius: 2px;
@@ -2889,7 +2889,7 @@ aside > *:last-child
     top: -47px;
     right: -47px;
     content: "";
-    z-index: -1;
+    z-index: 1;
     border: 3px solid var(--main_color4);
     border-radius: 5px;
 }
@@ -3560,7 +3560,7 @@ aside > *:last-child
 .documents_wrap {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: #fff;
     padding: 60px 60px 20px;
 }
@@ -4558,6 +4558,9 @@ aside > *:last-child
 {
     position: relative;
 }
+.soc_block .link {
+    padding: 0 0 0 53px;
+}
 .soc_insta {
     background: none;
 }
@@ -4960,9 +4963,19 @@ aside > *:last-child
 .products .product .img
 {
     position: relative;
-    overflow: hidden;
     width: 100%;
     padding-bottom: 78%;    
+}
+.products .product .img:before {
+    position: absolute;
+    content: "";
+    width: 145px;
+    height: 121px;
+    border: 3px solid var(--main_color4);
+    border-radius: 5px;
+    right: -31px;
+    bottom: -31px;
+    z-index: 2;
 }
 
 .product .stickers
@@ -7680,7 +7693,7 @@ footer .creator img {
     background: var(--main_color2);
 }
 .file-chooser label svg {
-    margin-left: 16px;
+    margin-left: 4px;
     display: block;
 }
 .file-uploader
