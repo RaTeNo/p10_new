@@ -285,18 +285,16 @@ body.lock
 .link {
     color: #fff;
     line-height: 55px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: space-between;
     min-width: 113px;
-    height: 55px;
+    min-height: 55px;
     padding: 0 0 0 21px;
     vertical-align: top;
     text-decoration: none;
     border: none;
     font-size: var(--font_size);
     text-align: center;
-    width: 201px;
     background: var(--main_color2);
     border-radius: 2px;
     cursor: pointer;
@@ -308,6 +306,8 @@ body.lock
 .link svg
 {
     margin-right: 5px;
+    flex-shrink: 0;
+    margin-left: 15px;
 }
 
 .block_head .link
@@ -660,7 +660,7 @@ body.lock
 
 .form .bottom .agree
 {
-    width: calc(100% - 320px);
+    width: calc(100% - 310px);
 }
 
 
@@ -2147,6 +2147,9 @@ aside > *:last-child
     max-width: 476px;
     width: 100%;
 }
+.first_section .link {
+    max-width: 350px;
+}
 
 .first_section .img {
     display: block;
@@ -3063,6 +3066,7 @@ aside > *:last-child
 .review_bottom-photo {
     width: 53px;
     height: 53px;
+    flex-shrink: 0;
 }
 .review_bottom-photo img {
     width: 100%;
@@ -3242,9 +3246,9 @@ aside > *:last-child
     line-height: 19px;
     color: var(--main_color4);
     display: flex;
-    align-items: center;
     text-decoration: none;
     transition: all .4s;
+    align-items: center;
 }
 .link-more span {
     display: block;
@@ -3493,6 +3497,9 @@ aside > *:last-child
     line-height: 19px;
     color: #fff;
     margin-bottom: 28px;
+}
+.prices .link-more {
+    align-items: flex-start;
 }
 
 .prices .item:nth-child(2) .name
@@ -4167,8 +4174,8 @@ aside > *:last-child
 .link-more span {
     border: 2px solid #464644;
     border-radius: 2px;
-    width: 156px;
-    height: 55px;
+    min-width: 156px;
+    min-height: 55px;
     line-height: 55px;
     text-align: center;
     display: block;
@@ -4559,7 +4566,7 @@ aside > *:last-child
     position: relative;
 }
 .soc_block .link {
-    padding: 0 0 0 53px;
+    padding: 0 0 0 30px;
 }
 .soc_insta {
     background: none;
@@ -7138,9 +7145,8 @@ button:disabled
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 113px;
-    height: 55px;
-    width: 184px;
+    min-width: 220px;
+    min-height: 55px;
     vertical-align: top;
     border: none;
     font-size: var(--font_size);
@@ -7148,7 +7154,7 @@ button:disabled
     background: var(--main_color2);
     cursor: pointer;
     transition: all .4s;
-    padding-left: 24px;
+    padding-left: 55px;
     padding-right: 5px;
 }
 .quiz_poll .step .next:hover {
@@ -7444,6 +7450,7 @@ button:disabled
 .link-more svg {
     margin-left: -1px;
     fill: #464644;
+    flex-shrink: 0;
 }
 .link-more:hover svg {
     fill: var(--main_color2);
@@ -7787,16 +7794,19 @@ footer .creator img {
     display: none;
 }
 
-.upload .error
-{
-    color: white;
-
-    background-color: #d65d38;
+.file-uploader .error {
+    border: none !important;
+}
+.file-chooser p {
+    font-size: 18px;
+    color: red;
+    padding-bottom: 1em;
 }
 
 .upload  .file-uploader * svg
 {
     fill: var(--main_color2);
+    flex-shrink: 0;
 }
 
 .upload .form .file .list
