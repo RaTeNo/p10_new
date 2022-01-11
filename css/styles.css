@@ -3027,7 +3027,7 @@ aside > *:last-child
 }
 .reviews .block_head {
     margin-bottom: 55px;
-    max-width: 700px;
+    max-width: 500px;
     width: 100%;
 }
 .reviews .review
@@ -3167,6 +3167,7 @@ aside > *:last-child
 }
 .articles .block_head {
     margin-bottom: 0;
+    width: calc(100% - 400px);
 }
 .articles .article
 {
@@ -3444,8 +3445,9 @@ aside > *:last-child
     font-size: var(--font_size);
     line-height: 19px;
     color: var(--main_color4);
-    width: 95px;
-    height: auto;
+    text-align: left;
+    min-width: 93px;
+    min-height: 35px;
 }
 .prices .flex
 {
@@ -3500,6 +3502,7 @@ aside > *:last-child
 }
 .prices .link-more {
     align-items: flex-start;
+
 }
 
 .prices .item:nth-child(2) .name
@@ -3861,11 +3864,14 @@ aside > *:last-child
     position: relative;
 }
 .order_block .form {
-    padding: 72px 121px 133px;
+    padding: 72px 121px 90px;
     position: relative;
     border: 3px solid var(--main_color4);
     border-radius: 5px;
     z-index: 1;
+}
+.order_block-checkbox {
+    display: none !important;
 }
 .order_block:before {
     position: absolute;
@@ -3890,7 +3896,7 @@ aside > *:last-child
     justify-content: space-between;
     padding: 9.5px 7px;
     background: #fff;
-    margin-bottom: 0;
+    margin-bottom: 70px;
 }
 .order_block .form input {
     height: 39px;
@@ -3921,7 +3927,7 @@ aside > *:last-child
     color: #FFFFFF;
     padding: 0px 36px;
     min-width: 136px;
-    height: 68px;
+    min-height: 68px;
     margin-left: auto;
     cursor: pointer;
     transition: .2s linear;
@@ -4072,8 +4078,8 @@ aside > *:last-child
 .contacts_block .map .cont {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    left: 0;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 .contacts_block .map iframe
 {
@@ -5724,7 +5730,6 @@ button:disabled
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    flex-wrap: wrap;
 }
 
 .product_info .buy .price
@@ -5781,7 +5786,6 @@ button:disabled
 .product_info .buy .buy_link
 {
     padding: 0 3px 0 21px;
-    width: 239px;
 }
 
 .product_info .buy .order_link
@@ -7700,7 +7704,7 @@ footer .creator img {
     background: var(--main_color2);
 }
 .file-chooser label svg {
-    margin-left: 4px;
+    margin-left: 15px;
     display: block;
 }
 .file-uploader
@@ -8617,7 +8621,10 @@ header.fixed .info {
     text-decoration: line-through;
     opacity: 0.42;
 }
-
+.product_info .buy_btns {
+    display: flex;
+    justify-content: space-between;
+}
 
 .poll .desc img{
     max-width: 100%;
