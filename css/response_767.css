@@ -1413,6 +1413,7 @@
     .articles .block_head {
         margin-bottom: 20px;
         max-width: 100%;
+        width: 100%;
     }
     .upload .cont {
         padding: 35px;
@@ -1616,6 +1617,9 @@
         top: -14px;
         right: -14px;
     }
+    .services .service .img {
+        height: auto;
+    }
     .articles .article .info {
         padding: 11px 17px 0 0;
     }
@@ -1762,8 +1766,17 @@
     .product_info .block_head .title::before {
         top: calc(100% - 10px);
     }
+}
 
 
-
+@media (max-width: 630px) {
+    .product_info .buy {
+        flex-wrap: wrap;
+    }    
+     .buy_btns {
+        margin-left: auto;
+        width: 100%;
+        align-items: center;
+    }
 }
 

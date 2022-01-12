@@ -65,6 +65,16 @@
     .order_block .form {
         padding: 30px;
     }
+    .order_block .form .line {
+        margin-bottom: 0;
+    }
+    .order_block .form .field:last-child {
+        min-height: 100%;
+        height: 100%;
+    }
+    .order_block .form .submit_btn {
+        height: 100%;
+    }
     .services_items {
         margin-left: -30px;
         margin-bottom: -30px;
@@ -240,7 +250,7 @@
         text-decoration: none;
     }
     header .logo-mob .desc {
-        color: #789490;
+        color: #fff;
     }
 
     header .info
@@ -657,7 +667,10 @@
     }
 
 
-
+    .product_info .buy
+    {
+        flex-direction: row;
+    }
     .product_info .buy .price .val
     {
         font-size: 40px;
@@ -1660,6 +1673,7 @@
     .stock_finish .info
     {
         width: 100%;
+        margin-bottom: 25px;
     }
 
     .before_after .item:after

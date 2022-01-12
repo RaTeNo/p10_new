@@ -684,7 +684,7 @@ body.lock
     align-items: center;
     justify-content: space-between;
     min-width: 201px;
-    height: 55px;
+    min-height: 55px;
     margin-left: auto;
     cursor: pointer;
     transition: .2s linear;
@@ -703,12 +703,12 @@ body.lock
 {
     margin-left: 6px;
     display: block;
+    flex-shrink: 0;
 }
 
 .text_block
 {
     line-height: 35px;
-
     letter-spacing: .3px;
 }
 
@@ -1034,7 +1034,6 @@ header .logo .desc {
     text-transform: uppercase;
     color: #244364;
     mix-blend-mode: normal;
-    opacity: 0.3;
 }
 header .logo a
 {
@@ -4154,6 +4153,7 @@ aside > *:last-child
 .stocks .stock .info
 {
     padding: 19px 36px 20px 0px;
+    height: auto;
 }
 .stocks .stock .name 
 {
@@ -5595,6 +5595,9 @@ button:disabled
     display: flex;
     align-items: flex-start;
 }
+.product_info-wrapper .owl-carousel .owl-item {
+    width: 422px;
+}
 #sync1 .item {
     width: 100%;
 }
@@ -5724,11 +5727,10 @@ button:disabled
     vertical-align: top;
     text-decoration: none;
 }
-.product_info .buy
-{
+.product_info .buy {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    align-items: start;
     align-content: center;
 }
 
@@ -5775,12 +5777,11 @@ button:disabled
 }
 .product_info .buy .btn {
     position: relative;
-    width: 425px;
     max-width: 100%;
-    height: 39px;
     margin-left: 28px;
     display: flex;
     align-items: center;
+    width: 241px;
 }
 
 .product_info .buy .buy_link
@@ -5794,8 +5795,10 @@ button:disabled
     z-index: 5;
     top: 0;
     left: 0;
-
     display: none;
+    min-width: 240px;
+    min-height: 55px; 
+    padding: 0;   
 }
 
 .bounceOut
@@ -6174,10 +6177,11 @@ button:disabled
     color: #FFFFFF;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 201px;
+    justify-content: space-between;
     min-width: 155px;
-    height: 55px;
+    min-height: 55px;
+    width: 201px;
+    height: 100%;
     margin: 0;
     cursor: pointer;
     transition: .2s linear;
@@ -7125,6 +7129,10 @@ button:disabled
 .quiz_poll .step .links > * {
     margin-left: 20px;
 }
+.quiz_poll .step .links svg {
+    margin-left: 55px;
+    flex-shrink: 0;
+}
 .quiz_poll .step .form
 {
     margin-top: 25px;
@@ -7685,8 +7693,9 @@ footer .creator img {
     color: #FFFFFF;
     display: flex;
     align-items: center;
-    width: 201px;
+    justify-content: space-between;
     min-width: 155px;
+    width: 201px;
     height: 55px;
     margin: 0;
     cursor: pointer;
@@ -7706,6 +7715,7 @@ footer .creator img {
 .file-chooser label svg {
     margin-left: 15px;
     display: block;
+    margin-right: 5px;
 }
 .file-uploader
 {
@@ -7761,7 +7771,7 @@ footer .creator img {
 
     display: inline-block;
 
-    height: 55px;
+    min-height: 55px;
 
     cursor: pointer;
     text-align: center;
@@ -8197,6 +8207,7 @@ footer .creator img {
 .btns
 {
     display: flex;
+    margin-left: 15px;
 }
 
 

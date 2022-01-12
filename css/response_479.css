@@ -347,13 +347,18 @@
 
         letter-spacing: 1px;
     }
+    .product_info .buy_btns {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
 
     .product_info .desc,
     .product_info .description
     {
         font-size: 14px;
         line-height: 22px;
-        margin-top: 70px;
+        margin-top: 30px;
     }
 
 
@@ -563,6 +568,9 @@
         width: 100%;
         margin-left: 0;
     }
+    .order_block .form .submit_btn {
+        min-height: 55px;
+    }
 
 
 
@@ -695,7 +703,7 @@
     {
         width: 44px;
         height: 44px;
-        margin-left: -22px;
+        margin-left: -44px;
 
         background-size: 25px 17px;
     }
@@ -918,8 +926,6 @@
     .product_info .buy .price .val
     {
         font-size: 30px;
-
-        text-align: center;
     }
 
     /*---------------
@@ -1066,7 +1072,9 @@
         margin-top: 0;
         padding: 0;
     }
-    .product_info .buy .price{
+    .product_info .buy .price {
+        font-size: 14px;
+        width: auto;
         flex-wrap: wrap;
     }
     .product_info .buy .price .val + .val{
@@ -1133,7 +1141,7 @@
         margin-left: 0px;
     }
     .product_info .buy .buy_link {
-        width: 230px;
+        width: 100%;
     }
     .product_info .buy .btn {
         justify-content: space-between;
@@ -1156,9 +1164,6 @@
     }
     .order_block .form .field {
         margin-bottom: 15px;
-        height: 53px;
-    }
-    .order_block .form .submit_btn {
         height: 53px;
     }
     .order_block .form {
@@ -1246,7 +1251,6 @@
     .quiz_poll .success .icon {
         width: 50px;
         height: 50px;
-        margin-right: 17px;
         padding: 8px;    
     }
     .advantages .item {
@@ -1444,7 +1448,7 @@
         border: none;
     }
     .quiz_poll .step .links > * {
-        width: 201px;
+        width: 100%;
     }
     .quiz_poll .quiz_poll-wrapper {
         padding: 0;
@@ -1513,7 +1517,8 @@
     .product_info .btn {
         flex-direction: column;
     }
-    .product_info .buy .buy_link {
+    .product_info .buy .buy_link,
+    .product_info .buy .order_link {
         margin-top: 20px;
     }
     .char div {

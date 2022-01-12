@@ -6,6 +6,7 @@ $(function(){
 		nav: false,
 		dots: true,
 		loop: true,
+		adaptiveHeight: true,
 		smartSpeed: 750,
 		autoplay: true,
 		autoplayTimeout: 5000		
@@ -31,6 +32,7 @@ $(function(){
 		nav: false,
 		dots: true,
 		loop: true,
+		adaptiveHeight: true,
 		smartSpeed: 750,
 		autoplay: true,
 		autoplayTimeout: 5000
@@ -57,6 +59,7 @@ $(function(){
 		dots: false,		
 		loop: true,
 		smartSpeed: 750,
+		adaptiveHeight: true,
 		autoplay: true,
 		addClassActive : true,
 		dotsContainer: '#carousel-custom-dots',
