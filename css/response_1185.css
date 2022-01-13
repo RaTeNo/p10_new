@@ -25,14 +25,12 @@
 
     .block_head
     {
-        margin-bottom: 35px;
+        margin-bottom: 30px;
     }
 
-    .block_head .title
-    {
-        padding-bottom: 10px;
+    .block_head .desc {
+        margin-top: 30px;
     }
-
 
     .block_head .desc
     {
@@ -562,7 +560,7 @@
 
     .director_letter .info {
         width: 100%;
-        max-width: calc(100% - 500px);
+        max-width: calc(100% - 530px);
     }
 
 
@@ -821,7 +819,10 @@
     .quiz_poll .info
     {
         width: 100%;
-        max-width: calc(100% - 290px);
+        max-width: calc(100% - 150px);
+    }
+    .quiz_poll form .agree {
+        width: 250px;
     }
     .quiz_poll .step .desc br {
         display: none;

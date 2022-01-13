@@ -35,26 +35,14 @@
     {
         line-height: 38px;
         margin-bottom: 0px;
-        padding-left: 70px;
     }   
     .block_head .desc {
         padding-left: 0px;
+        margin-top: 27px;
     }
-    .advantages .block_head .desc,
-    .services .block_head .desc,
-    .works .block_head .desc,
-    .reviews .block_head .desc,
-    .articles .block_head .desc,
-    .team .block_head .desc,
-    .contacts_block .block_head .desc,
-    .video_reviews .block_head .desc,
-    .prices .block_head .desc {
-        padding-left: 0px;
-        margin-top: 15px;
-    }
-    .block_head .title:before{
-        width: 50px;        
-        top: 18px;
+     .block_head .title:before{
+        width: 50px; 
+        top: calc(100% + 5px);
     }
     .advantages .inner {
         margin-top: 0px;
@@ -94,8 +82,6 @@
     .block_head .desc
     {
         line-height: 19px;
-
-        margin-top: 10px;
     }
 
     .block_head .link
@@ -1206,7 +1192,13 @@
         width: 450px;
         height: 450px;
     }
-
+    .contacts_block .contacts {
+        flex-direction: column;
+    }
+    .contacts_block .info2 {
+        align-items: flex-start;
+    }
+  
 
 
     .stocks .slider
@@ -1515,7 +1507,9 @@
     {
         margin-top: 20px;
     }
-
+    .quiz_poll .step .links > * {
+        margin-left: 0;
+    }
 
     .quiz_poll .step .success .icon img
     {
@@ -1815,7 +1809,7 @@
         display: none;
     }
     .contacts_block .info {
-        width: 100%;
+        width: 50%;
         max-width: 100%;
         padding: 30px;
         margin-bottom: 35px;
@@ -2076,7 +2070,6 @@
     }
     .big_boss_quote .info .text_block {
         line-height: 19px;
-        margin-top: 0px;
     }
     .big_boss_quote .img {
         height: 470px;
@@ -2101,6 +2094,9 @@
     .quiz_poll .cont {
         padding: 30px;
     }
+    .quiz_poll form .agree {
+        width: 100%;
+    }
     .upload {
         margin-left: 0px;
         margin-right: 0px;
@@ -2108,47 +2104,15 @@
     .upload .cont {
         padding: 0 20px;
     }
-    .upload .block_head .title,
-    .stock_finish .block_head .title,
-    .three_photo .block_head .title,
-    .socials_block .block_head .title,
-    .before_after .block_head .title,
-    .about_video .block_head .title,
-    .soc_block .block_head .title,
-    .director_letter .block_head .title,
-    .big_boss_quote .block_head .title,
-    .how_we_work .block_head .title,
-    .about .block_head .title {
-        margin-bottom: 25px;
-    }
-    .upload .block_head .title::before,
-    .stock_finish .block_head .title::before,
-    .three_photo .block_head .title::before,
-    .socials_block .block_head .title:before,
-    .before_after .block_head .title:before,
-    .about_video .block_head .title::before,
-    .soc_block .block_head .title::before,
-    .director_letter .block_head .title::before,
-    .big_boss_quote .block_head .title::before,
-    .how_we_work .block_head .title::before,
-    .about .block_head .title::before {        
-        top: calc(100% + 5px);
-    }
-    .documents .block_head .title {
-        margin-bottom: 0;
-    }
-    .about .block_head {
-        margin-bottom: 0px;
-    }
+
+
     .image_tips .cont {
         padding: 30px;
     }
     .reviews .review {
         padding: 40px;
     }
-    .text_blocks .block_head {
-        margin-bottom: 20px;
-    }
+
     .team_top,
     .video_reviews_top  {
         margin-bottom: 45px;

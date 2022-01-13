@@ -33,7 +33,7 @@
     }
 
     .block_head .title:before{
-        top: 14px;
+        top: 38px;
     }
 
 
@@ -840,10 +840,8 @@
     {
         font-size: 19px;
         line-height: 25px;
-
-        width: 100%;
-        max-width: 100%;
-            padding: 20px;
+        padding: 20px;
+        width: 60%;
     }
 
     .contacts_block .info .val
@@ -1765,6 +1763,23 @@
     .content .block_head .title::before,
     .product_info .block_head .title::before {
         top: calc(100% - 10px);
+    }
+    .contacts_block .map {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+    .contacts_block .map .cont {
+        position: relative;
+    }
+    .contacts_block .info {
+        width: 100%;
+    }
+    .contacts_block .map .cont {
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+        padding: 0;
     }
 }
 
