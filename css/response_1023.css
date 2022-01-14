@@ -795,7 +795,7 @@
         display: none;
     }
     .main_slider3_image .btns {
-        top: calc(100% + 30px);
+        top: calc(100% + 65px);
         justify-content: center;
     }
     .main_slider3 .customPreviousBtn {
@@ -805,7 +805,7 @@
         display: none;
     }
     .main_slider3 .cont {
-        padding: 50px 20px;
+        padding: 100px 20px;
     }
     .main_slider3_image {
         border: 10px solid #FFFFFF;
@@ -838,7 +838,13 @@
         font-size: 32px;
         line-height: 36px;
     }
-
+    .main_slider2 .info .link {
+        width: 201px;
+    }
+{
+    background: var(--main_color4);
+    width: 201px;
+}
     .main_slider2 .info .desc
     {
         margin-top: 20px;
@@ -939,7 +945,7 @@
 
     .about .info
     {
-        max-width: calc(100% - 360px);
+        max-width: calc(100% - 380px);
         padding: 30px;
     }
 
@@ -1148,9 +1154,6 @@
     .director_letter .img {
         width: 100%;
         height: 470px;
-    }
-    .director_letter .block_head .title {
-        margin-bottom: 20px;
     }
     .director_letter .info {
         padding: 25px 10px 10px;
@@ -1492,7 +1495,7 @@
     .quiz_poll .info
     {
         max-width: calc(100% - 270px);
-        padding-left: 35px;
+        padding-left: 60px;
     }
 
 
@@ -1910,15 +1913,8 @@
     .order_block .form .desc {
         margin-top: 10px;
     }
-    .soc_block .cont {
-        flex-direction: column;
-    }
-    .soc_block .cont > * + * {
-        margin-left: 0;
-    }
-    .soc_block .widget {
-        width: 100%;
-        padding: 25px;
+     .soc_block .cont > * + * {
+        margin-left: 35px;
     }
     .soc_block .widget:after {
         display: none;
@@ -2018,9 +2014,6 @@
     .big_boss_quote .img:before {
         width: 290px;
         height: 480px;
-    }
-    .soc_block-wrapper {
-        order: -1;
     }
     .vacancies .cont {
         flex-direction: column;
@@ -2188,15 +2181,14 @@
         justify-content: space-between;
         margin-top: 20px;
     }
-    .cart_info .block_head .title::before,
-    .products_category .block_head .title::before, 
-    .content .block_head .title::before,
-    .product_info .block_head .title::before {
-        top: calc(100% + 0px);
+ 
+    .email, .phone, .adres {
+        margin-bottom: 30px;
     }
-
-
-
+    .email, .phone {
+        width: 100%;
+    }
+  
 
 
 

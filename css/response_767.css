@@ -380,7 +380,12 @@
     {
         margin-bottom: 25px;
     }
-
+    .checkout_info .form {
+        margin-top: 0px;
+    }
+    .checkout_info .form .submit_btn svg {
+        display: none;
+    }
     .checkout_info .form .exp
     {
         font-size: 14px;
@@ -1487,13 +1492,17 @@
     }
     .soc_block .cont {
         align-items: flex-start;
+        flex-direction: column;
     }
     .main_slider .slide .info {
         padding-left: 60px;
         padding-right: 60px;
     }
     .main_slider .customNextBtn {
-        margin-right: -18px;
+        margin-right: 0px;
+    }
+    .main_slider .customPreviousBtn {
+        margin-left: -66px;
     }
     .first_section2 .cont {
         flex-direction: column-reverse;
@@ -1781,6 +1790,7 @@
         transform: translate(0, 0);
         padding: 0;
     }
+    
 }
 
 
