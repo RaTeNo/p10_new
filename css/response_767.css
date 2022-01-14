@@ -33,7 +33,7 @@
     }
 
     .block_head .title:before{
-        top: 38px;
+        top: calc(100% - 10px);
     }
 
 
