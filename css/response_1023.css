@@ -328,7 +328,19 @@
         
         white-space: normal;
     }
-
+    header .menu .item > a span:after {
+        position: absolute;
+        top: 50%;
+        right: -23px;
+        display: block;
+        width: 7px;
+        height: 7px;
+        margin-top: -4px;
+        content: '';
+        transform: rotate(-135deg);
+        border-bottom: 2px solid #fff;
+        border-left: 2px solid #fff;
+    }
 
     header .menu .sub_menu,
     header .menu .item:hover > a.touch_link + .sub_menu

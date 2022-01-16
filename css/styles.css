@@ -1273,7 +1273,6 @@ header .menu .item > a
 header .menu .item > a span
 {
     position: relative;
-
     padding-right: 15px;
 }
 
@@ -1421,7 +1420,7 @@ header .menu .flexMenu-viewMore > a span:after
 }
 
 header .menu .flexMenu-viewMore .item > a span:after{
-    display: none;
+    /* display: none; */
 }
 
 header .menu .flexMenu-viewMore:hover > a span:after
