@@ -901,8 +901,6 @@
 
     .product_info .cart_link .count
     {
-        position: relative;
-        top: -15px;
     }
 
     .product_info .data
