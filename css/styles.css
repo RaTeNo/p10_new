@@ -1286,8 +1286,8 @@ header .menu .item > a span:after {
     margin-top: -3px;
     content: '';
     transform: rotate(-135deg);
-    border-bottom: 2px solid #464644;
-    border-left: 2px solid #464644;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
 }
 
 header .menu .item:hover > a span:after{
@@ -1372,14 +1372,16 @@ header .menu .flexMenu-viewMore
 
 header .menu .flexMenu-viewMore > a
 {
-       color: #000;
+    font-weight: 700;
     font-size: 12px;
-    font-weight: 300;
-    line-height: 17px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.77664px;
+    color: #464644;
 
     display: flex;
 
-    height: 40px;
+    height: 52px;
     padding: 15px 40px;
 
     transition: background .2s linear;
@@ -1415,8 +1417,8 @@ header .menu .flexMenu-viewMore > a span:after
     content: '';
     transform: rotate(-45deg);
 
-    border-bottom: 2px solid #fff;
-    border-left: 2px solid #fff;
+    border-bottom: 2px solid #464644;
+    border-left: 2px solid #464644;
 }
 
 header .menu .flexMenu-viewMore .item > a span:after{
@@ -1447,7 +1449,6 @@ header .menu .flexMenu-popup
     padding: 0;
 
     background: var(--main_color2);
-    border:1px solid var(--main_color2);
 }
 
 header .menu .flexMenu-popup > *
@@ -1466,23 +1467,20 @@ header .menu .flexMenu-popup .item a
 {
     color: #fff;
     font-size: 12px;
-    line-height: 14px;
     font-weight: normal;
+    line-height: 17px;
     display: flex;
-    height: 56px;
-    padding: 15px 40px;
+    height: 40px;
+    padding: 12px 60px 14px 15px;
+    letter-spacing: 2.77664px;
     transition: background .2s linear;
     white-space: nowrap;
     text-decoration: none;
-    text-transform: none;
+    text-transform: uppercase;
     border-radius: 0;
-    background: var(--main_color2);
-    justify-content: center;
-    align-items: center;
-    align-content: center;
     flex-wrap: nowrap;
-        text-transform: uppercase;
-    letter-spacing: 2.7px;
+    border-bottom: 1px solid rgba(0, 0, 0, .18);
+    justify-content: flex-start;
 }
 
 header .menu .flexMenu-popup .item:first-child a
@@ -1503,7 +1501,7 @@ header .menu .flexMenu-popup .item a.active
 {
     color: #fff;
 
-    background:  var(--main_color2);
+    background:  var(--main_color3);
 }
 
 header .menu .flexMenu-popup .sub_menu,
@@ -4564,6 +4562,8 @@ aside > *:last-child
 }
 .soc_block .block_head .title img {
     margin-left: 13px;
+    width: 62px;
+    height: 62px;
 }
 .soc_block-wrapper {
     width: calc(100% - 460px);
@@ -6064,7 +6064,7 @@ button:disabled
     position: absolute;
     z-index: 9;
     top: 0;
-    right: 20px;
+    right: 0px;
     display: flex;
     padding-top: 11px;
     text-align: right;
@@ -8570,7 +8570,6 @@ header .menu .item .item:hover .sub_menu{
 header .menu .sub_menu a.sub_link span:after {
     position: absolute;
     top: 50%;
-    right: -90%;
     display: block;
     width: 5px;
     height: 5px;
