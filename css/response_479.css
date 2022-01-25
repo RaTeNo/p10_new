@@ -810,7 +810,7 @@
         background-size: 17px !important;
     }
     .contacts_info .info .flex {
-        padding: 20px;
+        padding: 5px;
     } 
     .contacts_info .info .description {
         margin-left: 18px;
@@ -1044,7 +1044,7 @@
         line-height: 24px;
     }
     .contacts_info .info .flex > *{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 
     .articles .article .inner{

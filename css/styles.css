@@ -7128,10 +7128,6 @@ button:disabled
 
 
 
-
-.contacts_info .info {
-    margin-left: 40px;
-}
 .contacts_info .info .flex
 {
     margin-bottom: -40px;
@@ -7140,20 +7136,19 @@ button:disabled
     align-content: stretch;
     background: #FFFFFF;
     box-shadow: 13px 15px 31px #E1D7C4;
-    padding: 66px 95px 77px;
-    margin-left: -40px;
+    padding: 46px 75px 57px;    
 }
 .contacts_info .info .flex > *
 {
     width: calc(50% - 40px);
     margin-bottom: 40px;
-    margin-left: 40px;
 }
 .contacts_info .info .item
 {
     position: relative;
     display: flex;
     text-align: center;
+    padding: 20px;
 }
 .contacts_info .email, 
 .contacts_info .phone, 
