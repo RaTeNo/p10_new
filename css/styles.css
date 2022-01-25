@@ -5170,8 +5170,8 @@ aside > *:last-child
 }
 .cart_info .product .product_delete
 {
-    margin-right: 20px;
-
+    margin-left: 20px;
+    color: rgb(223, 24, 24);
     cursor: pointer;
 }
 .cart_info .product + .product
@@ -5244,6 +5244,7 @@ aside > *:last-child
     font-size: var(--font_size);
     line-height: 26px;
     margin-top: 1px;
+    display: flex;
 }
 
 .cart_info .product .video_link a
@@ -7128,47 +7129,36 @@ button:disabled
 
 
 
-
+.contacts_info .info {
+    margin-left: 40px;
+}
 .contacts_info .info .flex
 {
     margin-bottom: -40px;
-
-    justify-content: center;
+    justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
-    background-color: #F7F7F7;
+    background: #FFFFFF;
+    box-shadow: 13px 15px 31px #E1D7C4;
+    padding: 66px 95px 77px;
+    margin-left: -40px;
 }
 .contacts_info .info .flex > *
 {
-    width: calc(33.333% - 40px);
+    width: calc(50% - 40px);
     margin-bottom: 40px;
+    margin-left: 40px;
 }
 .contacts_info .info .item
 {
     position: relative;
-
     display: flex;
-
-    padding: 20px 20px 20px 20px;
-
     text-align: center;
-
-    flex-wrap: wrap;
-    justify-content: center;
 }
-
-.contacts_info .info .item:after
-{
-    position: absolute;
-    z-index: -1;
-    bottom: -15px;
-
-    width: 90%;
-    height: 80%;
-
-    content: '';
-
-    border-radius: 16px;
+.contacts_info .email, 
+.contacts_info .phone, 
+.contacts_info .adres {
+    margin-bottom: 0;
 }
 
 
@@ -7176,12 +7166,10 @@ button:disabled
 {
     display: flex;
 
-    width: 105px;
-    height: 105px;
-
-    border-radius: 50%;
+    width: 99px;
+    height: 99px;
+    flex-shrink: 0;
     background: var(--main_color2);
-
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -7199,25 +7187,28 @@ button:disabled
 .contacts_info .info .title
 {
     width: 100%;
-    margin-top: 33px;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
     font-family: var(--font_family);
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: center;
+    font-size: 24px;
+    line-height: 28px;    
     color: #3A3A3A;
+}
+.contacts_info .info .description {
+    text-align: start;
+    margin-left: 34px;
 }
 .contacts_info .info .val
 {
-    color: #777;
+    width: 100%;
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: #AB9A91;
     font-size: var(--font_size);
-    line-height: 28px;
-
-    width: 90%;
-
-    text-align: center;
 }
 .contacts_info .info .val > * + *
 {
@@ -7226,9 +7217,7 @@ button:disabled
 .contacts_info .info .val a
 {
     color: #68adff;
-
     display: inline-block;
-
     vertical-align: top;
     letter-spacing: 1.27px;
     word-break: break-all;

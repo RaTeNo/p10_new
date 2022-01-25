@@ -212,7 +212,12 @@
 
         width: 375px;
     }
-
+    .cart_info .product .video_link {
+        flex-direction: column;
+    }
+    .cart_info .product .product_delete {
+        margin-left: 0;
+    }
 
 
     .checkout_success
@@ -844,11 +849,9 @@
 
     .contacts_info .info .flex
     {
+        padding: 35px;
     }
-    .contacts_info .info .flex > *
-    {
-        width: calc(50%);
-    }
+ 
     .contacts_info .info .icon
     {
         top: 20px;

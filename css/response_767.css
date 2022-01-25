@@ -1119,7 +1119,17 @@
 
     .contacts_info .info .flex > *
     {
-        width: calc(100% - 20px);
+        width: 100%;
+    }
+    .contacts_info .info .item {
+        flex-direction: row;
+    }
+    .contacts_info .info .description {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .contacts_info .info .flex > * {
+        margin-left: 0;
     }
 
 
