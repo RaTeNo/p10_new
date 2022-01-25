@@ -1117,19 +1117,30 @@
 
 
 
-    .contacts_info .info .flex > *
-    {
+
+    .contacts_info .info .flex > * {
+        margin-left: 40px;
+        text-align: start;
         width: 100%;
+        margin-top: 40px;
+    }
+    .contacts_info .info .item:nth-child(4), 
+    .contacts_info .info .item:nth-child(5) {
+        margin-left: 40px;
+    }
+    .contacts_info .info .item:nth-child(4) .icon,
+    .contacts_info .info .item:nth-child(5) .icon {
+        left: 39px;
+        top: -25px;
+        transform: translateY(0);
     }
     .contacts_info .info .item {
-        flex-direction: row;
+        padding: 70px 20px 20px;
     }
-    .contacts_info .info .description {
-        margin-left: 30px;
-        margin-top: 0px;
-    }
-    .contacts_info .info .flex > * {
-        margin-left: 0;
+ 
+    .contacts_info .info .icon {
+        left: 39px;
+        top: -25px; 
     }
 
 

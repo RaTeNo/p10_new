@@ -809,12 +809,7 @@
     {
         background-size: 17px !important;
     }
-    .contacts_info .info .flex {
-        padding: 5px;
-    } 
-    .contacts_info .info .description {
-        margin-left: 18px;
-    }
+
 
 
     /*---------------
@@ -1046,6 +1041,9 @@
     .contacts_info .info .flex > *{
         margin-bottom: 0px;
     }
+    .contacts_info .info .item {
+        padding: 50px 20px 20px;
+    } 
 
     .articles .article .inner{
         padding: 20px;
