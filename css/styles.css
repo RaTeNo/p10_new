@@ -7148,6 +7148,7 @@ button:disabled
     position: relative;
     display: flex;
     text-align: center;
+    justify-content: center;
     padding: 80px 34px 30px 39px;
     background: #FFFFFF;
     box-shadow: 13px 15px 31px #E1D7C4;
@@ -7162,6 +7163,7 @@ button:disabled
 .contacts_info .info .item:nth-child(5) {
     width: 100%;
     margin-left: 90px;
+    padding: 39px 34px;
 }
 .contacts_info .info .item:nth-child(4) {
     margin-top: 38px;
@@ -7239,7 +7241,6 @@ button:disabled
     color: #68adff;
     display: inline-block;
     vertical-align: top;
-    letter-spacing: 1.27px;
     word-break: break-all;
 }
 .contacts_info .info .val a.ic_whatsapp

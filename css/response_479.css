@@ -810,6 +810,29 @@
         background-size: 17px !important;
     }
 
+    .contacts_info .info .val a.ic_whatsapp
+    {
+        padding-left: 23px;
+    }
+    .contacts_info .info .val a.ic_viber
+    {
+        padding-left: 23px;
+    }
+    .contacts_info .info .val a.ic_vk
+    {
+        padding-left: 23px;
+    }
+    .contacts_info .info .val a.ic_insta
+    {
+        padding-left: 23px;
+    }
+    .contacts_info .info .item:nth-child(4), 
+    .contacts_info .info .item:nth-child(5) {
+        padding: 40px 20px 20px;
+    }
+    
+    
+
 
 
     /*---------------
