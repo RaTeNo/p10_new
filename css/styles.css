@@ -3969,7 +3969,7 @@ aside > *:last-child
     top: 520px;
 }
 .contacts_block .info {
-    width: 760px;
+    width: 480px;
     max-width: calc(100% - 400px);
     padding: 74px 63px 71px 63px;
     background: var(--main_color2);
@@ -4010,7 +4010,7 @@ aside > *:last-child
 }
 .email,
 .phone {
-    width: 50%;
+    width: 100%;
 }
 .adres {
     width: 100%;
