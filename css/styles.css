@@ -1201,7 +1201,7 @@ header .contacts .phones
     align-items: center;
     align-content: center;
     flex-wrap: wrap;  
-     max-width: 500px; 
+     max-width: 510px; 
 }
 @media (min-width: 1024px)
 {
