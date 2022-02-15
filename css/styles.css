@@ -2356,7 +2356,7 @@ aside > *:last-child
 
 .owl-nav-custom button.prev {
     transition: all .4s;
-    background: #DCB251;
+    background: var(--main_color1);
     margin-right: 12px;
 }
 .owl-nav-custom button.prev svg {
