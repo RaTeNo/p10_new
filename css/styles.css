@@ -1780,7 +1780,7 @@ aside .block:nth-child(2n) {
 
 aside .block .title
 {
-    color: var(--main_color4);
+    color: #fff;
     position: relative;
     display: flex;
     padding: 19px 21px 16px;
@@ -2112,7 +2112,7 @@ aside > *:last-child
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.8;
     background: var(--main_color3);
 }
 .first_section.block {
@@ -2144,7 +2144,7 @@ aside > *:last-child
     font-weight: 900;
     font-size: 47px;
     line-height: 46px;
-    color: var(--main_color1);
+    color: #fff;
     max-width: 486px;
     width: 100%;
     margin-bottom: 26px;
@@ -2154,7 +2154,7 @@ aside > *:last-child
     font-weight: 500;
     font-size: var(--font_size);
     line-height: 19px;
-    color: var(--text_color);
+    color: #fff;
     margin-bottom: 18px;
     max-width: 476px;
     width: 100%;
@@ -2283,7 +2283,7 @@ aside > *:last-child
     font-weight: 900;
     font-size: 52px;
     line-height: 46px;
-    color: var(--main_color4);
+    color: #fff;
     max-width: 410px;
     width: 100%;
     text-align: start;
@@ -2600,7 +2600,7 @@ aside > *:last-child
     font-weight: 900;
     font-size: 47px;
     line-height: 46px;
-    color: var(--main_color4);
+    color: #fff;
     text-align: center;
 }
 .main_slider .slide .desc
@@ -2762,7 +2762,7 @@ aside > *:last-child
     font-weight: 900;
     font-size: 47px;
     line-height: 46px;
-    color: var(--main_color4);
+    color: #fff;
     margin-bottom: 26px;
 }
 .main_slider3 .slide .desc {
@@ -3491,7 +3491,7 @@ aside > *:last-child
     font-weight: 900;
     font-size: 32px;
     line-height: 37px;
-    color: var(--main_color4);
+    color:#fff;
     margin-bottom: 18px;
 }
 .prices .item .desc
@@ -4083,7 +4083,7 @@ aside > *:last-child
 }
 .contacts_block .map .cont {
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translate(-50%, -50%);
     left: 50%;
 }
