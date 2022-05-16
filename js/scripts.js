@@ -753,11 +753,11 @@ $(function(){
 
 	    let rgba = hexDec(color3);
 	    
-	    root.style.setProperty('--bg', "rgba("+rgba+",0.1)");
+	    root.style.setProperty('--bg', "rgba("+rgba+",0.03)");
 
 	    rgba = hexDec(color3);
 	    
-	    root.style.setProperty('--bg2', "rgba("+rgba+",0.3)");
+	    root.style.setProperty('--bg2', "rgba("+rgba+",0.1)");
 
 	    //let rgba_opacity = hexDec(color2);
 
