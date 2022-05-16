@@ -7459,7 +7459,7 @@ footer
     color: #938261;
     padding: 51px 0 45px;
     text-align: center;
-    background: #FFEAC9;
+    background: var(--bg);
     flex: 0 0 auto;
 }
 

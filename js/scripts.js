@@ -751,9 +751,9 @@ $(function(){
 	    root.style.setProperty('--main_color3', color3);
 	    root.style.setProperty('--main_color4', color4);
 
-	    //let rgba = hexDec(color1);
+	    let rgba = hexDec(color3);
 	    
-	    //root.style.setProperty('--box-shadow-color', "rgba("+rgba+",0.35)");
+	    root.style.setProperty('--bg', "rgba("+rgba+",0.1)");
 
 	    //let rgba_opacity = hexDec(color2);
 
