@@ -8386,7 +8386,7 @@ aside .submit .reset i:after
     background: var(--bg);
 }
 .block:nth-child(2n) {
-    background: var(--bg2);
+    background: var(--bg);
 }
 
 
