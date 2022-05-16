@@ -753,7 +753,11 @@ $(function(){
 
 	    let rgba = hexDec(color3);
 	    
-	    root.style.setProperty('--bg', "linear-gradient(202.29deg, rgba("+rgba+",0.2) -33.86%, rgba("+rgba+",0.1) 95.39%)"); 
+	    root.style.setProperty('--bg', "rgba("+rgba+",0.1)");
+
+	    rgba = hexDec(color3);
+	    
+	    root.style.setProperty('--bg2', "rgba("+rgba+",0.3)");
 
 	    //let rgba_opacity = hexDec(color2);
 
