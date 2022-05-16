@@ -759,6 +759,10 @@ $(function(){
 	    
 	    root.style.setProperty('--bg2', "rgba("+rgba+",0.1)");
 
+	    let rgba_shadow = hexDec(color3);
+
+	    root.style.setProperty('--box-shadow-color', "rgba("+rgba_shadow+",0.1)");	     
+
 	    //let rgba_opacity = hexDec(color2);
 
 	    //root.style.setProperty('--main_color_opacity', "rgba("+rgba_opacity+",0.03)");	    
