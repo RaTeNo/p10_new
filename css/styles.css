@@ -276,9 +276,8 @@ body.lock
 {
     color: var(--text-color);
     font-size: var(--font_size);
-    line-height: 19px;
+    line-height: 26px;
     width: 100%;
-    font-weight: 700;
     margin-top: 35px;
 }
 .link {
