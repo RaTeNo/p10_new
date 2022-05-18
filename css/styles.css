@@ -2837,7 +2837,6 @@ aside > *:last-child
 
 .advantages .item .desc
 {
-    font-weight: 700;
     font-size: var(--font_size);
     line-height: 29px;
     color: var(--text-color);
@@ -3445,10 +3444,14 @@ aside > *:last-child
     font-weight: 700;
     font-size: var(--font_size);
     line-height: 19px;
-    color: var(--main_color4);
+    color: #fff;
     text-align: left;
     min-width: 93px;
     min-height: 35px;
+}
+
+.prices .link-more svg *{
+    fill:#fff;
 }
 .prices .flex
 {
@@ -3503,6 +3506,7 @@ aside > *:last-child
 }
 .prices .link-more {
     align-items: flex-start;
+    color:#fff;
 
 }
 
@@ -3512,7 +3516,7 @@ aside > *:last-child
 }
 .prices .item:nth-child(2) .price
 {
-    color: var(--main_color4);
+   
 }
 .prices .item:nth-child(2) .desc
 {
