@@ -730,6 +730,7 @@ body.lock
 .text_block q
 {
     margin-bottom: 30px;
+    line-height: 26px;
 }
 
 .text_block img
