@@ -3987,7 +3987,7 @@ aside > *:last-child
 .contacts_block .info {
     width: 480px;
     max-width: calc(100% - 400px);
-    padding: 74px 63px 71px 63px;
+    padding: 50px 63px 50px 63px;
     background: var(--main_color2);
     border-radius: 5px;
     z-index: 1;
@@ -4037,7 +4037,7 @@ aside > *:last-child
 .adres {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .adres {
     margin-bottom: 0;
@@ -4083,11 +4083,11 @@ aside > *:last-child
     position: relative;
     display: block;
     width: 100%;
-    height: 526px;
+    height: 700px;
 }
 .contacts_block .map .cont {
     position: absolute;
-    top: 60%;
+    top: 53%;
     transform: translate(-50%, -50%);
     left: 50%;
 }
